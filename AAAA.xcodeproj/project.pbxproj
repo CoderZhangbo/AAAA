@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E6F53691C06AFCB00A53DD2 /* scrollview.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F53671C06AFCB00A53DD2 /* scrollview.m */; };
+		9E6F536A1C06AFCB00A53DD2 /* scrollview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E6F53681C06AFCB00A53DD2 /* scrollview.xib */; };
+		9E99E5211B9C13BB00D5A0DE /* DatePickerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E99E5201B9C13BB00D5A0DE /* DatePickerHelper.m */; };
 		9EB106081B67CADA000DD030 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB106071B67CADA000DD030 /* main.m */; };
 		9EB1060B1B67CADA000DD030 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB1060A1B67CADA000DD030 /* AppDelegate.m */; };
 		9EB1060E1B67CADA000DD030 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB1060D1B67CADA000DD030 /* ViewController.m */; };
@@ -27,6 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E6F53661C06AFCB00A53DD2 /* scrollview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scrollview.h; sourceTree = "<group>"; };
+		9E6F53671C06AFCB00A53DD2 /* scrollview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scrollview.m; sourceTree = "<group>"; };
+		9E6F53681C06AFCB00A53DD2 /* scrollview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = scrollview.xib; sourceTree = "<group>"; };
+		9E99E51F1B9C13BB00D5A0DE /* DatePickerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerHelper.h; sourceTree = "<group>"; };
+		9E99E5201B9C13BB00D5A0DE /* DatePickerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerHelper.m; sourceTree = "<group>"; };
+		9E99E5241B9C18A400D5A0DE /* pchFile.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pchFile.pch; path = ../pchFile.pch; sourceTree = "<group>"; };
 		9EB106021B67CADA000DD030 /* AAAA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AAAA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB106061B67CADA000DD030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EB106071B67CADA000DD030 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +49,7 @@
 		9EB1061B1B67CADB000DD030 /* AAAATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AAAATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB106201B67CADB000DD030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EB106211B67CADB000DD030 /* AAAATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAAATests.m; sourceTree = "<group>"; };
+		9EB1E15F1B9E847500EF371F /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,7 @@
 				9EB106041B67CADA000DD030 /* AAAA */,
 				9EB1061E1B67CADB000DD030 /* AAAATests */,
 				9EB106031B67CADA000DD030 /* Products */,
+				F4681DBAB5A37EF88231AE54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,8 +94,14 @@
 			children = (
 				9EB106091B67CADA000DD030 /* AppDelegate.h */,
 				9EB1060A1B67CADA000DD030 /* AppDelegate.m */,
+				9EB1E15F1B9E847500EF371F /* Header.h */,
 				9EB1060C1B67CADA000DD030 /* ViewController.h */,
 				9EB1060D1B67CADA000DD030 /* ViewController.m */,
+				9E6F53661C06AFCB00A53DD2 /* scrollview.h */,
+				9E6F53671C06AFCB00A53DD2 /* scrollview.m */,
+				9E6F53681C06AFCB00A53DD2 /* scrollview.xib */,
+				9E99E51F1B9C13BB00D5A0DE /* DatePickerHelper.h */,
+				9E99E5201B9C13BB00D5A0DE /* DatePickerHelper.m */,
 				9EB1060F1B67CADA000DD030 /* Main.storyboard */,
 				9EB106121B67CADB000DD030 /* Images.xcassets */,
 				9EB106141B67CADB000DD030 /* LaunchScreen.xib */,
@@ -106,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				9EB106211B67CADB000DD030 /* AAAATests.m */,
+				9E99E5241B9C18A400D5A0DE /* pchFile.pch */,
 				9EB1061F1B67CADB000DD030 /* Supporting Files */,
 			);
 			path = AAAATests;
@@ -117,6 +135,13 @@
 				9EB106201B67CADB000DD030 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4681DBAB5A37EF88231AE54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +193,7 @@
 				TargetAttributes = {
 					9EB106011B67CADA000DD030 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = DEJX6PSR4A;
 					};
 					9EB1061A1B67CADB000DD030 = {
 						CreatedOnToolsVersion = 6.4;
@@ -200,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EB106111B67CADA000DD030 /* Main.storyboard in Resources */,
+				9E6F536A1C06AFCB00A53DD2 /* scrollview.xib in Resources */,
 				9EB106161B67CADB000DD030 /* LaunchScreen.xib in Resources */,
 				9EB106131B67CADB000DD030 /* Images.xcassets in Resources */,
 			);
@@ -219,7 +246,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E6F53691C06AFCB00A53DD2 /* scrollview.m in Sources */,
 				9EB1060E1B67CADA000DD030 /* ViewController.m in Sources */,
+				9E99E5211B9C13BB00D5A0DE /* DatePickerHelper.m in Sources */,
 				9EB1060B1B67CADA000DD030 /* AppDelegate.m in Sources */,
 				9EB106081B67CADA000DD030 /* main.m in Sources */,
 			);
@@ -349,7 +378,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/pchFile.pch";
 				INFOPLIST_FILE = AAAA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -359,7 +391,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/pchFile.pch";
 				INFOPLIST_FILE = AAAA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +453,7 @@
 				9EB106271B67CADB000DD030 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EB106281B67CADB000DD030 /* Build configuration list for PBXNativeTarget "AAAATests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +462,7 @@
 				9EB1062A1B67CADB000DD030 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

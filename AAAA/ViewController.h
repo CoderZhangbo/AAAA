@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *targetTime;
+@property (weak, nonatomic) IBOutlet UIButton *btn_one;
+@property (weak, nonatomic) IBOutlet UIButton *btn_two;
+@property (weak, nonatomic) IBOutlet UIButton *btn_three;
 
 @end
 
