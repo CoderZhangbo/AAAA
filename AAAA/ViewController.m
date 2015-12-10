@@ -25,7 +25,6 @@
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(creatTimepicker)];
     _targetTime.userInteractionEnabled = YES;
     [_targetTime addGestureRecognizer:tap];
-    NSData
     /***** 第一个button *****/
     //给按钮加一个蓝色的板框
     _btn_one.layer.borderColor = [[UIColor blueColor] CGColor];
