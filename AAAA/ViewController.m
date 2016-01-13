@@ -16,11 +16,30 @@
 }
 
 @end
+typedef NS_ENUM(NSInteger, Test1)
+{
+    //以下是枚举成员
+    Test1A = 0,
+    Test1B = 1,
+    Test1C = 2,
+    Test1D = 3
+};
+typedef enum                                        // type of button
+{
+    UP,                                               // status of button
+    DOWM,
+    LEFT,
+    RIGHT,
+    BACK,
+    START,
+    STOP
+} BtnStatus;
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
 
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(creatTimepicker)];
     _targetTime.userInteractionEnabled = YES;
@@ -52,6 +71,7 @@
 
     /***** 第三个button *****/
 
+    
     
     
 }

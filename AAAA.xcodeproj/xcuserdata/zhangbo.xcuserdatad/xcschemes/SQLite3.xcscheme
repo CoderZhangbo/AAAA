@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0640"
+   LastUpgradeVersion = "0720"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9EB106011B67CADA000DD030"
-               BuildableName = "AAAA.app"
-               BlueprintName = "AAAA"
-               ReferencedContainer = "container:AAAA.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9EB1061A1B67CADB000DD030"
-               BuildableName = "AAAATests.xctest"
-               BlueprintName = "AAAATests"
+               BlueprintIdentifier = "9EB6500B1C32795C00B75EFF"
+               BuildableName = "SQLite3.app"
+               BlueprintName = "SQLite3"
                ReferencedContainer = "container:AAAA.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,32 +28,17 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9EB1061A1B67CADB000DD030"
-               BuildableName = "AAAATests.xctest"
-               BlueprintName = "AAAATests"
-               ReferencedContainer = "container:AAAA.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9EB106011B67CADA000DD030"
-            BuildableName = "AAAA.app"
-            BlueprintName = "AAAA"
+            BlueprintIdentifier = "9EB6500B1C32795C00B75EFF"
+            BuildableName = "SQLite3.app"
+            BlueprintName = "SQLite3"
             ReferencedContainer = "container:AAAA.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
-         <AdditionalOption
-            key = "MallocStackLogging"
-            value = ""
-            isEnabled = "YES">
-         </AdditionalOption>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
@@ -84,18 +55,13 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9EB106011B67CADA000DD030"
-            BuildableName = "AAAA.app"
-            BlueprintName = "AAAA"
+            BlueprintIdentifier = "9EB6500B1C32795C00B75EFF"
+            BuildableName = "SQLite3.app"
+            BlueprintName = "SQLite3"
             ReferencedContainer = "container:AAAA.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
-         <AdditionalOption
-            key = "MallocStackLogging"
-            value = ""
-            isEnabled = "YES">
-         </AdditionalOption>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
@@ -108,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9EB106011B67CADA000DD030"
-            BuildableName = "AAAA.app"
-            BlueprintName = "AAAA"
+            BlueprintIdentifier = "9EB6500B1C32795C00B75EFF"
+            BuildableName = "SQLite3.app"
+            BlueprintName = "SQLite3"
             ReferencedContainer = "container:AAAA.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

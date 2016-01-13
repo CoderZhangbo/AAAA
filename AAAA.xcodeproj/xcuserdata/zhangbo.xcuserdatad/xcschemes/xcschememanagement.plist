@@ -7,17 +7,102 @@
 		<key>A- 3.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>12</integer>
 		</dict>
 		<key>A-2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>11</integer>
+		</dict>
+		<key>A-4.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
 		</dict>
 		<key>AAAA.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>CocoaKey-value.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>Copy of AAAA.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Copy of Copy of AAAA.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Copy of Copy of Copy of AAAA.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Copy of Copy of Copy of Copy of AAAA.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Copy of Copy of Copy of Copy of Copy of AAAA.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Copy of Copy of Copy of Copy of Copy of Copy of AAAA.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>Copy of Copy of Copy of Copy of Copy of Copy of Copy of AAAA.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of AAAA.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of AAAA.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of AAAA.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>SQLite3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -58,6 +143,21 @@
 			<true/>
 		</dict>
 		<key>9EB1061A1B67CADB000DD030</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9EB64FEC1C32755600B75EFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9EB6500B1C32795C00B75EFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9EB650281C32807200B75EFF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
